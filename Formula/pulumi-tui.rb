@@ -178,7 +178,7 @@ class PulumiTui < Formula
       You can launch pulumi-tui by running the command `pltui` in your terminal.
     EOS
   end
-  
+
   test do
     assert_match version.to_s, shell_output("#{bin}/pltui --version")
   end
