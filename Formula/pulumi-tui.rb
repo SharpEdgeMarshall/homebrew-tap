@@ -8,9 +8,9 @@ class PulumiTui < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/SharpEdgeMarshall/homebrew-tap/releases/download/pulumi-tui-0.1.1"
-    sha256 cellar: :any, arm64_tahoe:  "ef9eef0f51556090d21d34a1b422e79cff4400b3674ae58e2d0d0bbb4836d1a1"
-    sha256 cellar: :any, x86_64_linux: "d5b302e40502c253d45152e9f0a750386f4daa38dcb768e6a86b0f77fa48a2c3"
+    root_url "https://github.com/SharpEdgeMarshall/homebrew-tap/releases/download/pulumi-tui-0.1.2"
+    sha256 cellar: :any, arm64_tahoe:  "3e672077390cedc7a7d41c784f1f6d020eb791085d9091da8abfdd89c72da19e"
+    sha256 cellar: :any, x86_64_linux: "cd28fed70947e49f0df46061ccba280722ada11242b25e805e438f2d4ced4a33"
   end
 
   depends_on "libyaml"
